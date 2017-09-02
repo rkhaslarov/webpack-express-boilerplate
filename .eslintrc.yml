@@ -1,0 +1,86 @@
+env:
+  browser: true
+  es6: true
+extends: 'eslint:recommended'
+parserOptions:
+  sourceType: module
+globals: 
+  "global": true
+rules:
+  indent:
+    - error
+    - tab
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - double
+  semi:
+    - error
+    - always
+  no-console: 
+    - off
+  no-undef:
+    - off
+  no-unused-vars:
+    - off
+  no-cond-assign:
+    - off
+  block-spacing: 
+    - error
+  brace-style: 
+    - error
+  camelcase: 
+    - error
+  comma-dangle: 
+    - error
+    - never
+  comma-style: 
+    - error
+    - last
+  func-call-spacing: 
+    - error
+    - never
+  max-len: 
+    - error
+    - 150
+  quote-props: 
+    - error
+    - always
+  no-this-before-super:
+    - error
+  constructor-super: 
+    - error
+  max-params: 
+    - error
+    - 4
+  newline-before-return:
+    - error
+  no-multiple-empty-lines: 
+    - error
+  semi-spacing:
+    - error
+  space-before-function-paren: 
+     - error
+     - never
+  array-bracket-spacing: 
+    - error
+    - never
+  object-curly-spacing: 
+    - error
+    - never
+  keyword-spacing: 
+    - error
+  arrow-spacing: 
+    - error
+  comma-spacing: 
+    - error
+    - before: false
+      after: true 
+  key-spacing: 
+    - error
+    - beforeColon : true 
+  spaced-comment: 
+    - error
+    - always
